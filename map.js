@@ -26,10 +26,11 @@ const people = [
     }
 ]
 
-// forEach doesn't suport the retun satement.
 
-people.forEach((e)=>{
+people.map((e)=>{
     if(e.age > 25){
-    console.log(e)
-    } 
+    people['l_name'] = "THS"
+    console.log(e.l_name)
+    //return(`${e.l_name }`)
+    }
 })
